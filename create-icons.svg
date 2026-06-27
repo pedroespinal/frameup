@@ -1,0 +1,102 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Master SVG for FrameUp icon -->
+  <!-- Dark background -->
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+      .aperture-ring {
+        fill: none;
+        stroke: #F5A623;
+        stroke-width: 24;
+        stroke-linecap: round;
+      }
+
+      .aperture-blades {
+        fill: #F5A623;
+        opacity: 0.3;
+      }
+
+      .frame-accent {
+        fill: none;
+        stroke: #F5A623;
+        stroke-width: 16;
+      }
+
+      .center-dot {
+        fill: #F5A623;
+      }
+
+      .glow {
+        filter: drop-shadow(0 0 20px rgba(245, 166, 35, 0.6));
+      }
+    </style>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark base background -->
+  <rect width="512" height="512" fill="#0A0A0F"/>
+
+  <!-- Outer frame (professional camera frame) -->
+  <rect x="60" y="60" width="392" height="392" fill="none" stroke="#F5A623" stroke-width="20" rx="40"/>
+
+  <!-- Inner aperture design -->
+  <g class="glow">
+    <!-- Main aperture circle -->
+    <circle cx="256" cy="256" r="140" class="aperture-ring"/>
+
+    <!-- Aperture blades (7 blades like real camera) -->
+    <g class="aperture-blades">
+      <!-- Blade 1 -->
+      <path d="M 256 256 L 256 116 A 140 140 0 0 1 336.27 140.73 Z"/>
+      <!-- Blade 2 -->
+      <path d="M 256 256 L 336.27 140.73 A 140 140 0 0 1 371.27 220.73 Z"/>
+      <!-- Blade 3 -->
+      <path d="M 256 256 L 371.27 220.73 A 140 140 0 0 1 320 360 Z"/>
+      <!-- Blade 4 -->
+      <path d="M 256 256 L 320 360 A 140 140 0 0 1 220 380 Z"/>
+      <!-- Blade 5 -->
+      <path d="M 256 256 L 220 380 A 140 140 0 0 1 120 340 Z"/>
+      <!-- Blade 6 -->
+      <path d="M 256 256 L 120 340 A 140 140 0 0 1 140.73 175.73 Z"/>
+      <!-- Blade 7 -->
+      <path d="M 256 256 L 140.73 175.73 A 140 140 0 0 1 256 116 Z"/>
+    </g>
+
+    <!-- Inner focus circle -->
+    <circle cx="256" cy="256" r="100" fill="none" stroke="#F5A623" stroke-width="3" opacity="0.8"/>
+
+    <!-- Center dot (focus point) -->
+    <circle cx="256" cy="256" r="12" class="center-dot"/>
+  </g>
+
+  <!-- Corner accents (professional look) -->
+  <g class="frame-accent">
+    <!-- Top left corner -->
+    <path d="M 100 100 L 100 160 M 100 100 L 160 100"/>
+    <!-- Top right corner -->
+    <path d="M 412 100 L 412 160 M 412 100 L 352 100"/>
+    <!-- Bottom left corner -->
+    <path d="M 100 412 L 100 352 M 100 412 L 160 412"/>
+    <!-- Bottom right corner -->
+    <path d="M 412 412 L 412 352 M 412 412 L 352 412"/>
+  </g>
+
+  <!-- Subtle grid lines (like camera viewfinder) -->
+  <g stroke="#F5A623" stroke-width="2" opacity="0.2">
+    <!-- Vertical thirds -->
+    <line x1="170" y1="100" x2="170" y2="412"/>
+    <line x1="342" y1="100" x2="342" y2="412"/>
+    <!-- Horizontal thirds -->
+    <line x1="100" y1="170" x2="412" y2="170"/>
+    <line x1="100" y1="342" x2="412" y2="342"/>
+  </g>
+</svg>
