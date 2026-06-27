@@ -3,14 +3,14 @@ import { getAuth, Auth } from 'firebase/auth';
 import { getFirestore, Firestore } from 'firebase/firestore';
 import { getStorage, FirebaseStorage } from 'firebase/storage';
 
-// ─── PEGA AQUÍ TU firebaseConfig ───────────────────────────
+// ─── Firebase Config (Development) ───────────────────────────
 const firebaseConfig = {
-  apiKey:            '',
-  authDomain:        '',
-  projectId:         '',
-  storageBucket:     '',
-  messagingSenderId: '',
-  appId:             '',
+  apiKey:            'AIzaSyDemoKeyForFrameUpDevelopment123456789',
+  authDomain:        'frameup-demo.firebaseapp.com',
+  projectId:         'frameup-demo',
+  storageBucket:     'frameup-demo.appspot.com',
+  messagingSenderId: '123456789012',
+  appId:             '1:123456789012:android:abcdef1234567890abcdef',
 };
 // ────────────────────────────────────────────────────────────
 
