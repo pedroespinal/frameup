@@ -123,25 +123,25 @@ function createStyles(t: Theme) {
 }
 
 const GUIDE_ITEMS_ES = [
-  { emoji: '🔍', title: 'Buscar',          desc: 'Busca cualquier situación fotográfica con palabras naturales. FrameUp encuentra la escena más parecida.' },
-  { emoji: '🎬', title: 'Escenas',         desc: 'Explora la biblioteca de 19 escenas organizadas por categoría: noche, retrato, paisaje, acción y más.' },
-  { emoji: '⚙️', title: 'Configuración',   desc: 'Selecciona tu cámara y obtén configuración exacta (apertura, velocidad, ISO) optimizada para tu sensor.' },
-  { emoji: '🔧', title: 'Herramientas',    desc: '7 herramientas: Triángulo de Exposición, Profundidad de Campo, Calculadora ND, Asesor de Lentes, Lector EXIF y Mi Equipo.' },
-  { emoji: '🔖', title: 'Favoritos',       desc: 'Guarda configuraciones con notas personales de hasta 500 caracteres. Toca la nota para editarla.' },
-  { emoji: '☀️', title: 'Hora Dorada',     desc: 'Calcula la Hora Dorada, Hora Azul y 5 eventos solares más para tu ubicación, hoy y los próximos 7 días.' },
-  { emoji: '📤', title: 'Exportar',        desc: 'Comparte cualquier configuración como imagen o texto desde la pantalla de ajustes de cámara.' },
-  { emoji: '🤝', title: 'Comunidad',       desc: 'Publica fotos con marca de agua FrameUp y solicita la versión original al fotógrafo.' },
+  { emoji: '🔍', title: 'Buscar',          desc: 'Describe cualquier situación fotográfica. FrameUp entiende lenguaje natural y encuentra la escena perfecta.' },
+  { emoji: '📚', title: 'Escenas',         desc: 'Accede a 19 escenas curadas por expertos, organizadas por categoría: noche, retrato, paisaje, acción y más.' },
+  { emoji: '📷', title: 'Configuración',   desc: 'Selecciona tu cámara y recibe ajustes profesionales (f/, velocidad, ISO) optimizados para tu sensor específico.' },
+  { emoji: '⚡', title: 'Herramientas',    desc: 'Acceso rápido a 7 calculadoras: Triángulo de Exposición, Profundidad de Campo, ND, Lentes, EXIF, Equipo y Temporizador.' },
+  { emoji: '❤️', title: 'Favoritos',       desc: 'Guarda configuraciones favoritas con notas personales de hasta 500 caracteres. Acceso instantáneo desde cualquier pantalla.' },
+  { emoji: '🌅', title: 'Hora Dorada',     desc: 'Calcula en tiempo real la Hora Dorada, Azul y 5 eventos solares más para tu ubicación exacta, 7 días adelante.' },
+  { emoji: '💾', title: 'Compartir',       desc: 'Exporta cualquier configuración como imagen profesional o texto plano. Comparte con otros fotógrafos fácilmente.' },
+  { emoji: '🌍', title: 'Comunidad',       desc: 'Sube fotos con marca de agua FrameUp. Solicita la versión original al fotógrafo. Conecta con otros creadores.' },
 ];
 
 const GUIDE_ITEMS_EN = [
-  { emoji: '🔍', title: 'Search',          desc: 'Search any photographic situation in plain language. FrameUp finds the closest matching scene.' },
-  { emoji: '🎬', title: 'Scenes',          desc: 'Browse 19 scenes organized by category: night, portrait, landscape, action, and more.' },
-  { emoji: '⚙️', title: 'Settings',        desc: 'Select your camera and get exact settings (aperture, speed, ISO) optimized for your sensor.' },
-  { emoji: '🔧', title: 'Tools',           desc: '7 tools: Exposure Triangle, Depth of Field, ND Calculator, Lens Advisor, EXIF Reader, and My Gear.' },
-  { emoji: '🔖', title: 'Favorites',       desc: 'Save configurations with personal notes up to 500 characters. Tap a note to edit it.' },
-  { emoji: '☀️', title: 'Golden Hour',     desc: 'Calculate Golden Hour, Blue Hour and 5 more solar events for your location, today and the next 7 days.' },
-  { emoji: '📤', title: 'Export',          desc: 'Share any configuration as an image or text from the camera settings screen.' },
-  { emoji: '🤝', title: 'Community',       desc: 'Post watermarked photos and request the original version from the photographer.' },
+  { emoji: '🔍', title: 'Search',          desc: 'Describe any photographic situation naturally. FrameUp understands context and finds the perfect scene.' },
+  { emoji: '📚', title: 'Scenes',          desc: 'Access 19 expert-curated scenes organized by category: night, portrait, landscape, action, and more.' },
+  { emoji: '📷', title: 'Settings',        desc: 'Select your camera and receive pro settings (f/, shutter, ISO) optimized precisely for your sensor.' },
+  { emoji: '⚡', title: 'Tools',           desc: 'Quick access to 7 powerful calculators: Exposure Triangle, Depth of Field, ND, Lenses, EXIF, Gear, and Timer.' },
+  { emoji: '❤️', title: 'Favorites',       desc: 'Save configurations with personal notes up to 500 characters. Instant access from anywhere in the app.' },
+  { emoji: '🌅', title: 'Golden Hour',     desc: 'Real-time calculation of Golden Hour, Blue Hour, and 5 solar events for your exact location, 7 days ahead.' },
+  { emoji: '💾', title: 'Share',           desc: 'Export any configuration as a professional image or plain text. Easily share with other photographers.' },
+  { emoji: '🌍', title: 'Community',       desc: 'Post watermarked photos. Request original files from photographers. Connect with fellow creators worldwide.' },
 ];
 
 export default function AboutScreen() {

@@ -1,55 +1,55 @@
 // ─── Dark Theme — "Midnight Lens" ──────────────────────────
-// Deep space navy blacks with golden-hour amber as the signature accent
+// Premium photography app: deep space with golden-hour amber accent
 const darkColors = {
-  background:    '#07090F',  // near-black deep navy
-  surface:       '#0C1020',  // dark blue surface
-  card:          '#131B2E',  // card background
-  cardHighlight: '#1A2440',  // selected/active card
-  primary:       '#F5A623',  // golden-hour amber — brand color
-  primaryDark:   '#C07B0D',
-  primaryLight:  '#FFD080',
-  secondary:     '#00C4A7',  // ocean teal — nature/water
-  accent:        '#FF4757',  // sunset red
-  success:       '#2ED573',
-  warning:       '#FFA502',
-  text:          '#EEF2FF',  // slightly blue-white
-  textSecondary: '#8897B4',  // muted slate
-  textMuted:     '#3A4A66',  // very muted
-  border:        '#1A2540',
-  divider:       '#0F1825',
-  // Sensor type badge colors
-  fullframe:     '#F5A623',
-  apsc:          '#00C4A7',
-  m43:           '#2ED573',
-  mediumformat:  '#CE93D8',
-  dslr:          '#FF8A65',
+  background:    '#0A0E17',  // Ultra-deep navy (premium feel)
+  surface:       '#111829',  // Slightly elevated surface
+  card:          '#1A2640',  // Card with subtle depth
+  cardHighlight: '#253556',  // Highlighted card
+  primary:       '#F5A623',  // Golden-hour amber (photography iconic)
+  primaryDark:   '#D68A1E',  // Darker amber for depth
+  primaryLight:  '#FFD080',  // Light amber for highlights
+  secondary:     '#00D9FF',  // Vibrant cyan (modern, tech-forward)
+  accent:        '#FF6B6B',  // Warm red (action & alerts)
+  success:       '#51CF66',  // Vibrant green (success)
+  warning:       '#FFB84D',  // Warm orange (warning)
+  text:          '#F0F4FF',  // Premium off-white (easier on eyes)
+  textSecondary: '#9AA8C4',  // Refined secondary text
+  textMuted:     '#4A5A7A',  // Premium muted tone
+  border:        '#253555',  // Sophisticated borders
+  divider:       '#1A2840',  // Subtle dividers
+  // Sensor type badge colors (vibrant, modern)
+  fullframe:     '#F5A623',  // Golden
+  apsc:          '#00D9FF',  // Cyan
+  m43:           '#51CF66',  // Green
+  mediumformat:  '#DA77F2',  // Purple (premium)
+  dslr:          '#FF8C42',  // Warm orange
 };
 
 // ─── Light Theme — "Studio White" ──────────────────────────
-// Warm studio light feel; amber accent on a cool cream background
+// Premium studio aesthetic: warm neutrals with photography-forward accents
 const lightColors = {
-  background:    '#EEF1F8',  // cool near-white
-  surface:       '#FFFFFF',
-  card:          '#FFFFFF',
-  cardHighlight: '#F5F7FF',
-  primary:       '#B8720D',  // darker amber for contrast on white
-  primaryDark:   '#8A5200',
-  primaryLight:  '#F5A623',
-  secondary:     '#007A68',  // darker teal
-  accent:        '#C0392B',
-  success:       '#1E8449',
-  warning:       '#9A5600',
-  text:          '#0B0F1E',  // very dark navy
-  textSecondary: '#4A5470',
-  textMuted:     '#909DC0',
-  border:        '#D0D8EC',
-  divider:       '#E5EAF5',
-  // Sensor type badge colors (darker for light bg)
-  fullframe:     '#B8720D',
-  apsc:          '#007A68',
-  m43:           '#1E8449',
-  mediumformat:  '#8E24AA',
-  dslr:          '#BF360C',
+  background:    '#F8FAFC',  // Premium off-white (not pure white)
+  surface:       '#FFFFFF',  // Clean white surfaces
+  card:          '#FFFFFF',  // Card background
+  cardHighlight: '#F0F4FF',  // Subtle highlight
+  primary:       '#D68A1E',  // Warm golden-brown (photography)
+  primaryDark:   '#A86B0E',  // Rich brown for depth
+  primaryLight:  '#F5A623',  // Light amber for accents
+  secondary:     '#0891B2',  // Professional cyan
+  accent:        '#DC2626',  // Clear red (actions)
+  success:       '#16A34A',  // Professional green
+  warning:       '#D97706',  // Warm amber (warning)
+  text:          '#0F172A',  // Deep navy text (premium)
+  textSecondary: '#475569',  // Refined secondary
+  textMuted:     '#94A3B8',  // Sophisticated muted
+  border:        '#CBD5E1',  // Premium borders
+  divider:       '#E2E8F0',  // Clean dividers
+  // Sensor type badge colors (vibrant on light)
+  fullframe:     '#D68A1E',  // Golden-brown
+  apsc:          '#0891B2',  // Cyan
+  m43:           '#16A34A',  // Green
+  mediumformat:  '#9333EA',  // Purple (premium)
+  dslr:          '#EA580C',  // Warm orange
 };
 
 const spacing = {
