@@ -3,7 +3,7 @@
     "name": "FrameUp",
     "slug": "frameup",
     "owner": "pedroespinal",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "runtimeVersion": {
       "policy": "nativeVersion"
     },
@@ -25,7 +25,7 @@
       },
       "predictiveBackGestureEnabled": false,
       "package": "com.pedroespinal.frameup",
-      "versionCode": 2,
+      "versionCode": 3,
       "minSdkVersion": 24,
       "targetSdkVersion": 34,
       "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION", "INTERNET", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
