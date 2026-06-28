@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d68a1e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Lens outer ring -->
+  <circle cx="512" cy="512" r="380" fill="none" stroke="#f5a623" stroke-width="16"/>
+
+  <!-- Aperture blades -->
+  <g opacity="0.9">
+    <path d="M 512 132 L 740 360 L 640 512 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 512 132 L 284 360 L 384 512 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 892 512 L 664 284 L 664 384 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 892 512 L 664 740 L 664 640 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 512 892 L 284 664 L 384 512 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 512 892 L 740 664 L 640 512 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 132 512 L 360 284 L 360 384 Z" fill="#f5a623" opacity="0.7"/>
+    <path d="M 132 512 L 360 740 L 360 640 Z" fill="#f5a623" opacity="0.7"/>
+  </g>
+
+  <!-- Lens glass center -->
+  <circle cx="512" cy="512" r="280" fill="url(#lensGrad)" opacity="0.2"/>
+  <circle cx="512" cy="512" r="280" fill="none" stroke="#f5a623" stroke-width="6"/>
+
+  <!-- Inner lens details -->
+  <circle cx="512" cy="512" r="200" fill="none" stroke="#f5a623" stroke-width="4" opacity="0.6"/>
+  <circle cx="512" cy="512" r="120" fill="none" stroke="#f5a623" stroke-width="3" opacity="0.5"/>
+</svg>

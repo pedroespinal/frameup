@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lens outer ring -->
+  <circle cx="512" cy="512" r="380" fill="none" stroke="#000000" stroke-width="20"/>
+
+  <!-- Aperture blades -->
+  <g>
+    <path d="M 512 132 L 740 360 L 640 512 Z" fill="#000000"/>
+    <path d="M 512 132 L 284 360 L 384 512 Z" fill="#000000"/>
+    <path d="M 892 512 L 664 284 L 664 384 Z" fill="#000000"/>
+    <path d="M 892 512 L 664 740 L 664 640 Z" fill="#000000"/>
+    <path d="M 512 892 L 284 664 L 384 512 Z" fill="#000000"/>
+    <path d="M 512 892 L 740 664 L 640 512 Z" fill="#000000"/>
+    <path d="M 132 512 L 360 284 L 360 384 Z" fill="#000000"/>
+    <path d="M 132 512 L 360 740 L 360 640 Z" fill="#000000"/>
+  </g>
+
+  <!-- Inner lens details -->
+  <circle cx="512" cy="512" r="200" fill="none" stroke="#000000" stroke-width="4"/>
+  <circle cx="512" cy="512" r="120" fill="none" stroke="#000000" stroke-width="3"/>
+</svg>
