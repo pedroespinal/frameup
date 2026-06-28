@@ -84,23 +84,9 @@ if ($LASTEXITCODE -eq 0) {
         # Rename
         Rename-Item $generatedApk.FullName $newApkPath -Force
 
-        # Sign with jarsigner
-        Write-Host "🔐 Signing APK..." -ForegroundColor Cyan
-        $JARSIGNER = "C:\Program Files\Android\Android Studio\jbr\bin\jarsigner.exe"
-
-        & $JARSIGNER `
-            -verbose `
-            -sigalg SHA384withRSA `
-            -digestalg SHA-256 `
-            -keystore ..\frameup.jks `
-            -storepass "FrameUpKeystore2026!Secure" `
-            -keypass "FrameUp2026SecureKey!Release" `
-            "$newApkPath" `
-            "frameup" 2>&1 | Select-Object -Last 5
-
-        if ($LASTEXITCODE -eq 0) {
-            Write-Host ""
-            Write-Host "✅ APK signed successfully!" -ForegroundColor Green
+        # Gradle already signs the APK via signingConfigs.release — no manual signing needed
+        Write-Host "✅ APK already signed by Gradle (signingConfigs.release)" -ForegroundColor Green
+        if ($true) {
             Write-Host ""
             Write-Host "════════════════════════════════════════════════════════════" -ForegroundColor Cyan
             Write-Host "✨ FrameUp v$VERSION - READY TO INSTALL" -ForegroundColor Green
